@@ -42,9 +42,16 @@
 
     iframe {
         width: 100%;
-        min-height: 1701px;
+        min-height: 2100px;
         border: 0;
         margin: 0;
+        display: block;
+    }
+
+    @media screen and (max-width: 600px) {
+        iframe {
+            min-height: 2500px;
+        }
     }
 </style>
 </head>
